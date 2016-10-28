@@ -6,7 +6,7 @@
 
 %Also good to note: The output will be in row, column format.
 
-%Included in order to use nth1
+%Included in order to use nth1. This is necessary for ECLiPSe's prolog implementation. It should work on other implementations, however.
 :- use_module( library( listut ) ).
 
 %This calls a version of the function that has a variable to store the current path.
